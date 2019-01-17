@@ -21,10 +21,10 @@ class Solution(object):
         even_list = []
         odd_list = []
         
-        for i in A:
-            if i % 2:
-                odd_list.append(i)
-            else:
-                even_list.append(i)
+        for i in A:                         #   Iterate over all the elements of A
+            if i % 2:                       #   If i % 2 gives a reminder then its odd 
+                odd_list.append(i)          #   Append it to the odd_list
+            else:                           #   Else the number is even 
+                even_list.append(i)         #   Append it to the even_list
                 
-        return (even_list + odd_list)
+        return (even_list + odd_list)       #   Append both the list 
