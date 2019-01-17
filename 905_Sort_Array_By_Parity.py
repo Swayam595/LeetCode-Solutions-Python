@@ -18,8 +18,8 @@ class Solution(object):
         
         return result                       #   Return the result list  """
         
-        even_list = []
-        odd_list = []
+        even_list = []                      #   Even list to store even numbers
+        odd_list = []                       #   Odd list to store odd nubers
         
         for i in A:                         #   Iterate over all the elements of A
             if i % 2:                       #   If i % 2 gives a reminder then its odd 
