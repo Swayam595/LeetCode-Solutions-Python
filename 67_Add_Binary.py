@@ -1,3 +1,10 @@
+ """" LeetCode Solution
+    def addBinary(self, a: 'str', b: 'str') -> 'str':
+        return bin(int(a,2)+int(b,2))[2::]      #   First convert the binary number to there decimal equivalent, 
+                                                #   then add the numbers and bind there binary 
+                                                #   and then every element in the output binary number from index 2 onwards
+        """ 
+
 """   My Solution to Add two binary   """
     def addBinary(self, a: 'str', b: 'str') -> 'str':
         
@@ -47,9 +54,6 @@
         if carry: return str(carry) + ans   #   If there is a carry bit then append the carry bit in the fornt of the ans string
         else: return ans        #   If there is not carry bits then return just the ans string
         
-    """" LeetCode Solution
-    def addBinary(self, a: 'str', b: 'str') -> 'str':
-        return bin(int(a,2)+int(b,2))[2::]      #   First convert the binary number to there decimal                                                     #   equivalent, then add the numbers and bind there                                                     #   binary and then every element in the output binary                                                   #   number from index 2 onwards
-        """ 
+   
         
         
