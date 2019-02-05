@@ -1,4 +1,4 @@
- """"
+ """
         ### LeetCode Solution to find the length of the last word ###
     def lengthOfLastWord(self, s):
         try:            #   Try if the string has elements
