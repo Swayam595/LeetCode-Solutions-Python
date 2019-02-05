@@ -1,4 +1,15 @@
- ### My solution to Find the length of the last word ###
+ """"
+        ### LeetCode Solution to find the length of the last word ###
+    def lengthOfLastWord(self, s):
+        try:            #   Try if the string has elements
+            return len(s.split()[-1])   #   Split each word of the input string into different string and
+                                        #   store into a list and reutn the length of the last element in the list
+        except:         #   If the input string has no elements then return 0
+            return 0
+            """
+
+
+### My solution to Find the length of the last word ###
     def lengthOfLastWord(self, s):
         """
         :type s: str
@@ -18,11 +29,4 @@
         
         return ans                  # Return ans
         
-        """"
-        ### LeetCode Solution to find the ength of the last word ###
-    def lengthOfLastWord(self, s):
-        try:            #   Try if the string has elements
-            return len(s.split()[-1])   #   Split each word of the input string into different string and stroe into a list and reutn the length of the last element in the list
-        except:         #   If the input string has no elements then return 0
-            return 0
-            """
+       
