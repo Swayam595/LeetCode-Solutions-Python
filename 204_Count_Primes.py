@@ -3,7 +3,7 @@
 ##
 ##    My Python Solution for finding the number of prime numbers between a given number
 ##
-##    Time Complexity ---->  T(N) <= O(p * m)  
+##    Time Complexity ---->  T(N) = O(p * m)  
 ##    where m is the number of multiples of a prime number and 
 ##    p is the number of prime numbers
 ##
